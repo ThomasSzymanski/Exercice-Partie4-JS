@@ -55,11 +55,11 @@ var valeurAbsolueArray = function (array) {
     return array.map(Math.abs);
 }
 var sufaceCercle = function (rayon) {
-    return  Math.PI * (r * r);
+     return Math.round(Math.PI * (rayon * rayon));
 }
 var hypothenuse = function (ab, ac) {
-    return 'A completer';
+    return Math.hypot(ab, ac);
 }
 var calculIMC = function (poids, taille) {
-    return 'A completer';
+    return parseFloat((poids / (taille * taille)).toFixed(2));
 }
